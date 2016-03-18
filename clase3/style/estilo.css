@@ -1,0 +1,33 @@
+body{
+
+	font-family: Verdana, Tahoma, Sans-serif; 
+}
+
+p {
+	font-size: 14px;
+	/*Unidades de medida
+	-px (absoluta)
+	-em (relativa)
+	*/
+	color: #FF9999;
+	/*puede ser en ingles ()
+	name=olive
+	o hexadecimal
+	rgb
+	rgba
+	*/
+	font-weight: normal; /*bold*/
+	text-transform: capitalize;
+}
+h1,h2,h3{
+	font-weight: normal;
+	font-style: italic; 
+	text-align: center; /*left/	right / center/ justify* no usar en version mobile*/
+	text-transform: none; /* none /uppercase/lowecase/ capitalize (hace que la letra inicial sea mayuscula) */
+	text-decoration: none;  /*overline , underline, none, line-trough */
+	letter-spacing:-3px ;
+	word-spacing:10px ;
+	line-height: 22px; /* interlineado 6px por defecto */
+}
+
+
