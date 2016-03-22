@@ -16,16 +16,51 @@ ul{
 	/*list-style: upper-alpha; upper-roman*/ 
 }
 
-.contenedorincial {
-	background-image: url(.../images/indexbanner-bg3.jpg);
-	height: 500px;
+nav{
+	text-align: right;
+}
+.contenedor-incial {
+	background-image: url(.../images/index-banner-bg3.jpg);
+   	height: 500px;
+	text-align: left;
 	/*background-position: center top;
 	/*left x y top c por defecto
 	background-repeat: no-repeat; 
 	/* repeat, no reapet, reapet x , repeat y 
 	background-attachment: scroll; /*fixed  dice que la imagen de fondo quede estatica */
 	background: no repeat center top scroll;
-}
+	
+	}
+	
+
 .servicios-destacados{
  	text-align: center;
+}
+
+
+.precios{
+	background-image: url(.../images/fondos2.jpg); 
+}
+
+
+footer{
+	background-color: #000033;
+	text-align: center;
+	color: white;
+
+}
+
+strong{
+	color:#0099CC;
+}
+
+
+button{
+	background-color: #0099FF;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+.menufinal{
+	background-color: #0099FF;
 }
