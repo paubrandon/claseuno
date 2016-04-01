@@ -1,0 +1,47 @@
+TRANSFORMACIONES
+permite manipular
+rotar
+escalar
+transladar
+
+transform: rotate (45deg); ( si quiero rotar, debo definir grados en los que quiero que rote)
+-webkit-tranform; rotate(45deg); chrome
+-moz-transform: rotate(45deg);/Mozilla/
+-moz-transform: rotate(45deg);/Mozilla/
+
+
+prefijo es una linea de codigo que sirve para ejecutar la propiedad en browser que no la soportan 
+prefijo IE para explore
+pred
+	
+CAN I USE preguntar co
+
+tranform-origin; center center;
+x
+
+
+para escalar un elementro 
+
+transform:scale(0 a &)
+
+transicion
+
+Cambio progresivo entre un estado reposo y un estado rollover, como cuando le pasamos por encima.
+Debo declarar que es lo que se va a transiionar, primero definir la propiedad con la que vamos a jugar.
+
+La propiedadr es 
+transition; propiedad, duracion (va en milisegundos por ejemplo 500ms o 0.5 s) linea de tiempo (timing function como se ejecuta esa transiicion en esa linea de tiempo, si se ve lenta, lineal, termine lento y empiece rapido) 
+timing function
+-ease (x por defecto)
+-ease in
+-linear
+-ease-out 
+-webkit-transition;
+
+transform: rotate(90deg) scale(1.2);
+
+propiedad de sombra de caja
+box-shadow: off-horizontal  valor expresado en pixeles / off vertical / blur o desenfoque o halo de la sombra por defecto es 0  y color 
+
+
+transform translate 

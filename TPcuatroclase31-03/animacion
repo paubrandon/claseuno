@@ -1,0 +1,47 @@
+Animaciones @keyframes
+
+1. hacer
+2. aplicar
+
+
+@keyframes rodar{
+	from{
+		transform: rotate(0);
+
+	}
+	to{
+		tranform: rotate(350deg);
+	}
+}
+
+@keyframe colores{
+		0%{
+			background:black;
+		}
+		25%{
+			background:blue;
+		}
+		50%{
+			background:violet;
+		}
+		75%{
+			background:orange;
+		}
+		100%{
+			brackground:red;
+		}
+}
+
+Ejecucion de animacion
+Debo ir a la regla a la cual quiero aplicar la animacion 
+Ej;
+	.caja{
+			animation-name:colores;
+			animation-duration:1000ms;/*1*/
+			animation-timing-fuction: ease; /*ease-out (lento al final) ease-in ease-in-out*/
+			animation-delay:0;/*solo se usa al iniciar*/
+			animation-iteration-count:1: /* infinit obtengo animacion infitina*/
+			animation-direction:normal; /*alternate / cuando la animacion es normal cuando llega  va al inciio si usas alternate pega la vuelta por la misma via */
+	}
+
+	

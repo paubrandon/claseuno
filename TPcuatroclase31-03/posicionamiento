@@ -1,0 +1,22 @@
+Pseudo clase
+:hover 
+es un selector falso, es sobre una clase creada
+
+posicionamiento relativo se mueve de acuerdo a sus propios ejes , ejes del propio elemento, left 50 , para mover y que no afecte al resto de los elementos. Se aplica principalmente cuando yo quiero que se mueva en funcion de la caja.  La caja en relative, elementos en absolute. Posicion de por ejemplo el logo solo lo puedo mover. 
+posiciionamiento absoluto se mueve de acuerdo a los eje de la caja contenedora, dentro de una caja, entiende que no existe.
+
+
+position:fixed 
+Lo que hace es fijar un elemento que no se mueva cuando scrolleo .Siempre se mueve de acuerdo a los ejes del body. 
+
+/
+	margin: 0 auto;
+	position: fixed;
+	background-color: red;
+	top: 0;
+	left: 0;
+	right: 0;
+	
+
+	Esto para centrar por ejemplo el header
+	line height igual que alto para centrar verticalmente el texto
