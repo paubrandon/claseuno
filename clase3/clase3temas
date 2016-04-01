@@ -27,3 +27,12 @@ el wrapper muestra el margen real de mi contenido para manipular sencillo
 normalize css 
 reset css
 tecnicas de reset en css 
+
+color picker (crtl)
+
+font izon
+
+uso de subclases  , es una regla de estilo que se puede usar con una class ya definido 
+dentro de un atributo puedo tener mas de una clase. 
+
+para usar position absolute, la caja padre debe estar en relativo. 
