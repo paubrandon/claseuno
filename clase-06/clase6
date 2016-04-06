@@ -1,0 +1,36 @@
+contenedor inicial, wrapper 
+
+1200 px
+270 para cada caja
+
+120 px para saber 
+
+en ese caso margin rigth 40 px la ultima caja se va para abajo. Necesito quitarle a la ultima caja el margen
+
+aplcarle a la ultima caja un nuevo estilo.
+y darle margin 0; 
+
+
+
+Recordar elementos bloques se ajustan a elemento padre.
+
+
+Responsive
+Pasar las medidas de pixeles a porcentajes para el responsive
+Siempre definir ancho maximo con el max width.
+Los margenes en horizontal si necesitan ir en porcentajes 
+Regla de 3 para cambiar a porcentaje sacar el porcentaje teniendo en relacion el ancho del padre. 
+
+
+
+margen calcularlo respecto al elemento padre 
+
+
+Media querie
+Entr parentisis va la condicion que en general tiene relacion con la ventana, entre() no va el punto y coma. 
+En este ejemplo si  nuestro dispositivo de salida  tiene como ancho maximo 840 se van a ejecutar las siguitnetes reglas, adapta mi layaut de acuerdo a los dispositivos. B40 es el break point. 
+
+Siempre va al final de la hoja css
+@media (max-width:840px){
+	
+}
