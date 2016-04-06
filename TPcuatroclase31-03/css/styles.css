@@ -230,3 +230,70 @@ da estilo a un elemento que se encuentre INMEDIATAMENTE después de otro, siempr
 	top: 0;
 	
 }
+
+.contenedorsecundario{
+	    background:url(../images/fondos2.jpg);
+		margin-top: -80px;
+		background-color: yellow;
+		text-align: center;
+		margin-top: 80px;
+		min-height: 550px;
+}
+
+
+.pricing-boxes{
+	margin:80px ;
+
+}
+
+.box-price{
+	width: 270px;
+	float: left;
+	background-color: #fff;
+	box-shadow: 0 0 5px;
+	padding: 15px;
+}
+
+.box-price table{
+	width: 100%;
+	text-align: center;
+}
+
+.box-price table h4{
+	font-size: 16px
+	font-weight: 700;
+}
+
+.box-price table h3{
+	font-size: 70px;
+	margin: 0;
+	padding-top: 20px;
+	line-height: 70px;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 700;
+}
+
+
+.box-price table h3 sup{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	font-weight: 400;
+	position: relative;
+	top: 5px;
+}
+
+
+.box-price table b{
+	font-weight: 400;
+	color: red;
+	font-size: 14px;
+	display: block;
+    border-bottom: solid 1px #CCC;
+
+}
+table, td, tr{
+	border-spacing: 0;
+	border: solid 1px;
+
+}

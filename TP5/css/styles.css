@@ -59,7 +59,7 @@ header{
 	*/
 	margin: 0 auto;
 	/*position: fixed;*/
-	background-color: white;
+	background-color: yellow;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -177,10 +177,6 @@ da estilo a un elemento que se encuentre INMEDIATAMENTE después de otro, siempr
 
 .titletres{
 	font-size: 30px;
-
-
-
-
 	text-align: center;
 	margin: 50px 0 10px;
 
@@ -231,28 +227,111 @@ da estilo a un elemento que se encuentre INMEDIATAMENTE después de otro, siempr
 }
 
 
-footer{
-	background-color: #000033;
-	text-align: center;
-	color: white;
+
+
+
+.precios{
+	background: url(../images/fondos2.jpg) no-repeat center top scroll;
+	min-height: 300px;
+
+	
 
 }
+
+
+.precios p{
+	     text-align: center;
+	     line-height: 20px;
+}
+
+
+.numero 
+        {
+        	font-size: 40px;
+        }
+
+
+
+.tituloprecios{
+			font-size: 30px;
+			text-align: center;
+			padding: 30px 0 30px 0;
+
+			}
+
+
+.precios article{
+	background-color: yellow;
+	/*position: absolute;*/
+	float: right;
+	text-align: center;
+	margin:0 60px 0px 60px;
+	width: 200px;
+	padding: 20px 0 40px 0;
+   
+}
+
+
+
+
+
+button{
+	background-color: #0099FF;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	margin-top: 10px;
+
+}
+
+
+
+
+.previofooter{
+	background-color: #000066;
+	height: 200px;
+	width: 1200px;
+	margin: auto;
+	color: white;
+	text-align: center;
+	padding: 75px 0 75px 0;
+	font-size: 17px;
+	
+}
+
+
 
 strong{
 	color:#0099CC;
 }
 
 
-button{
-	background-color: #0099FF;
-	font-family: 'Open Sans', sans-serif;
+
+footer{
+	background-color:yellow;
+	text-align: left;
 	color: white;
+	height: 100px;
+	width: 1200px;
+	margin: auto;
+	padding: 50px;
+
 }
 
-.menufinal{
-	background-color: #0099FF;
+
+
+footer div{
+		font-size: 15px;
+		padding: 0;
+		color: black;
+
 }
 
-.precios{
-	background: url(../images/fondos2.jpg) no-repeat; 
+footer nav{
+		float: right;
+
+}
+
+footer nav li{
+	display: inline-block;
+	margin-left: 15px;
 }

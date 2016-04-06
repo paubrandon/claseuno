@@ -1,0 +1,13 @@
+contenedor inicial, wrapper 
+
+1200 px
+270 para cada caja
+
+120 px para saber 
+
+en ese caso margin rigth 40 px la ultima caja se va para abajo. Necesito quitarle a la ultima caja el margen
+
+aplcarle a la ultima caja un nuevo estilo.
+y darle margin 0; 
+
+
