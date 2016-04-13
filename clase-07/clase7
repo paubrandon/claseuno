@@ -1,0 +1,14 @@
+margin auto solo funciona en elementos de bloque 
+cuando tengo un elemento de linea como una imagen  
+para que dentro de un contenedor los elementos de linea se centren usamos el text aline.
+si la imagen esta dentro de un div o contenedor se puede usar el margin auto
+
+posicionamiento flotante 
+posicionamiento absoluto cuando queremos mover libremente por ejemplo un elemento 
+simular con relleno 
+
+el relativo se usa paera contener a un elemento absoluto
+el relativo se usa para modificar la posicion de un elemento levemente en funcion de los demas. Si es un texto de linea.
+
+
+Posicionamiento fijo se mueve en funcion al body
