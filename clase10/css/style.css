@@ -1,0 +1,219 @@
+/* CSS Document  */
+/* Project name: TP SASS */
+/* File name: styles.css */
+/* Description: Hoja de estilos global */
+/* Creation date: Abril de 2016 */
+/* Author: Name Lastname */
+/* Author's eMail: username@server.com */
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0; }
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+figure {
+  margin: 0;
+  line-height: 0; }
+  figure img {
+    width: 100%; }
+
+input, textarea, button {
+  border: none;
+  font-family: inherit; }
+
+/********************************* */
+/*=========     GLOBAL   ========= */
+/********************************* */
+.wrapper {
+  width: 97%;
+  max-width: 1200px;
+  margin: auto; }
+
+.red-button {
+  display: block;
+  margin: 25px auto 0;
+  background-color: #d32f2f;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 15px;
+  max-width: 85%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 0 0 8px #000;
+  -webkit-box-shadow: 0 0 8px #000; }
+  .red-button:hover {
+    background-color: #811b1b; }
+
+.subtitle {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 24px;
+  margin-top: 0; }
+  .subtitle + p {
+    color: #919191;
+    text-align: center;
+    font-size: 15px;
+    padding: 0 15px; }
+
+.separator {
+  margin: auto;
+  height: 3px;
+  background-color: #333333;
+  width: 45px; }
+
+#we-do, #our-projects {
+  padding: 70px 0s; }
+
+/********************************* */
+/*=========     HEADER   ========= */
+/********************************* */
+header {
+  padding: 15px; }
+
+.logo {
+  display: inline-block;
+  max-width: 125px; }
+
+#toggle {
+  display: none; }
+  #toggle:checked ~ nav {
+    width: 100vw; }
+
+.toggle-button {
+  float: right;
+  margin-top: 10px; }
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #333333;
+  width: 0;
+  height: 100vh;
+  overflow: hidden;
+  transition: 500ms;
+  -ms-transition: 500ms;
+  -webkit-transition: 500ms; }
+  nav li {
+    color: #fff;
+    border-bottom: solid 1px #fff;
+    position: relative; }
+    nav li label {
+      position: absolute;
+      right: 15px;
+      top: 15px; }
+  nav a {
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px; }
+
+/********************************* */
+/*=========     BANNER   ========= */
+/********************************* */
+.banner {
+  min-height: 550px;
+  background: url(../images/bg-banner.jpg) center center;
+  text-align: center;
+  padding-top: 150px;
+  color: #fff; }
+  .banner h1 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    margin: 0; }
+  .banner p {
+    font-size: 15px;
+    margin: 10px; }
+
+/************************************** */
+/*=========     WHAT-WE-DO    ========= */
+/************************************** */
+.services article {
+  margin: 40px 5% 0;
+  position: relative; }
+
+.red-ball {
+  width: 60px;
+  height: 60px;
+  display: block;
+  background-color: #d32f2f;
+  text-align: center;
+  line-height: 60px;
+  font-size: 19px; }
+
+/**************************************** */
+/*=========     OUR-PROJECTS    ========= */
+/**************************************** */
+#our-projects {
+  background-color: #f7f7f7; }
+
+.project-list figure {
+  margin: 40px 5% 0;
+  box-shadow: 0 0 10px #333;
+  -webkit-box-shadow: 0 0 10px #333;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  overflow: hidden;
+  position: relative; }
+  .project-list figure div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+    .project-list figure div:hover span {
+      transform: scale(1);
+      -ms-transform: scale(1);
+      -webkit-transform: scale(1); }
+    .project-list figure div span {
+      width: 40px;
+      height: 40px;
+      background-color: #d32f2f;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -20px;
+      transform: scale(0);
+      -ms-transform: scale(0);
+      -webkit-transform: scale(0);
+      transition: 600ms;
+      -ms-transition: 600ms;
+      -webkit-transition: 600ms; }
+
+/****************************************** */
+/*=========     CALL-TO-ACTION    ========= */
+/****************************************** */
+/*********************************** */
+/*=========     CLIENTS    ========= */
+/*********************************** */
+/**************************************** */
+/*=========     SOCIAL-LINKS    ========= */
+/**************************************** */
+/*********************************** */
+/*=========     CONTACT    ========= */
+/*********************************** */
+/********************************** */
+/*=========     FOOTER    ========= */
+/********************************** */
+/***************************************** */
+/*=========     MEDIA-QUERIES    ========= */
+/***************************************** */
+
+/*# sourceMappingURL=style.css.map */

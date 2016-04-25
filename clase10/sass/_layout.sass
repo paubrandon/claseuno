@@ -1,0 +1,186 @@
+/**********************************/
+/*=========     GLOBAL   =========*/
+/**********************************/
+.wrapper
+	width: 97%
+	max-width: $main-width*1px
+	margin: auto
+
+.red-button
+	display: block
+	margin: 25px auto 0
+	background-color: $main-color
+	color: #fff
+	font-size: 14px
+	text-align: center
+	padding-top: 15px
+	max-width: 85%
+	+b-ra(5px)
+	+b-sh(0,0,8px,#000)
+
+	&:hover
+		background-color: darken($main-color,20)
+
+.subtitle 
+	text-align: center
+	font-family: $second-font
+	font-size: 24px
+	margin-top: 0
+	+ p
+		color: darken($third-color,40)
+		text-align: center
+		font-size: 15px
+		padding: 0 15px
+
+.separator
+	margin: auto
+	height: 3px 
+	background-color: $comp-color
+	width: 45px
+
+//extend 
+%contenedores
+	padding: 70px 0s
+
+#we-do 
+	@extend %contenedores
+
+#our-projects
+	@extend %contenedores
+
+/**********************************/
+/*=========     HEADER   =========*/
+/**********************************/
+header
+	padding: 15px  
+
+.logo
+	display: inline-block
+	max-width: 125px
+
+#toggle
+	display: none
+	&:checked ~ nav
+		width: 100vw
+	// ocultar el checkbox 
+
+.toggle-button
+	float: right
+	margin-top: 10px
+
+nav 
+	position: fixed 
+	left: 0
+	top: 0
+	background-color: $comp-color
+	width: 0
+	height: 100vh
+	overflow: hidden
+	+ttion(500ms)
+	li
+		color: #fff
+		border-bottom: solid 1px #fff
+		position: relative
+		label
+			position: absolute
+			right: 15px
+			top: 15px
+	a
+		display: inline-block
+		font-size: 15px
+		padding: 15px
+
+/**********************************/
+/*=========     BANNER   =========*/
+/**********************************/
+.banner 
+	min-height: 550px
+	background: url(../images/bg-banner.jpg) center center 
+	text-align: center
+	padding-top: 150px
+	color: #fff
+	h1
+		font-family: $second-font
+		font-size: 30px
+		margin: 0
+	p
+		font-size: 15px
+		margin: 10px
+
+
+/***************************************/
+/*=========     WHAT-WE-DO    =========*/
+/***************************************/
+.services
+	article
+		margin: 40px 5% 0
+		position: relative
+.red-ball
+	width: 60px
+	height: 60px
+	display: block
+	background-color: $main-color
+	text-align: center
+	line-height: 60px
+	font-size: 19px
+
+
+/*****************************************/
+/*=========     OUR-PROJECTS    =========*/
+/*****************************************/
+#our-projects
+	background-color: $third-color
+.project-list
+	figure
+		margin: 40px 5% 0
+		+b-sh(0,0,10px,#333)
+		+b-ra(10px)
+		overflow: hidden
+		position: relative
+		div
+			position: absolute
+			left: 0
+			top: 0
+			width: 100%
+			height: 100%
+			
+			&:hover
+				span
+					+scale(1)
+			span
+				width: 40px
+				height: 40px
+				background-color: $main-color
+				+b-ra(50%)
+				text-align: center
+				line-height: 40px
+				color: #fff
+				position: absolute
+				top: 50%
+				left: 50%
+				margin: -20px
+				+scale(0)
+				+ttion(600ms)
+/*******************************************/
+/*=========     CALL-TO-ACTION    =========*/
+/*******************************************/
+
+
+/************************************/
+/*=========     CLIENTS    =========*/
+/************************************/
+
+
+/*****************************************/
+/*=========     SOCIAL-LINKS    =========*/
+/*****************************************/
+
+
+/************************************/
+/*=========     CONTACT    =========*/
+/************************************/
+
+
+/***********************************/
+/*=========     FOOTER    =========*/
+/***********************************/
