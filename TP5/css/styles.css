@@ -233,8 +233,12 @@ da estilo a un elemento que se encuentre INMEDIATAMENTE después de otro, siempr
 .precios{
 	background: url(../images/fondos2.jpg) no-repeat center top scroll;
 	min-height: 300px;
+<<<<<<< HEAD
 
 	
+=======
+	position: relative;
+>>>>>>> cbb6b568ced02d3cf186b185981305b371fac6ab
 
 }
 
@@ -265,9 +269,15 @@ da estilo a un elemento que se encuentre INMEDIATAMENTE después de otro, siempr
 	/*position: absolute;*/
 	float: right;
 	text-align: center;
+<<<<<<< HEAD
 	margin:0 60px 0px 60px;
 	width: 200px;
 	padding: 20px 0 40px 0;
+=======
+	margin:20px 55px  50px 55px;
+	width: 200px;
+	padding: 20px 0 40px;
+>>>>>>> cbb6b568ced02d3cf186b185981305b371fac6ab
    
 }
 
@@ -295,7 +305,10 @@ button{
 	text-align: center;
 	padding: 75px 0 75px 0;
 	font-size: 17px;
+<<<<<<< HEAD
 	
+=======
+>>>>>>> cbb6b568ced02d3cf186b185981305b371fac6ab
 }
 
 
